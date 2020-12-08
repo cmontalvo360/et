@@ -1,0 +1,65 @@
+html{
+    background-color: cornflowerblue;
+    min-height: 1000px;
+}
+img{
+    width: 100%;
+}
+footer{
+    background-color: darkgreen;
+    color: yellow;
+    text-align: center;
+    font-size: 14px;
+}
+li a{
+    color: yellow;
+}
+#name a {
+    color: aqua;
+    font-size: 1.2em;
+}
+
+/* Home */
+.index h1, h3{
+    color: rgb(252, 255, 50);
+}
+
+
+/* About.html*/
+img#et_about{
+    width: 400px;
+    height: 400px;
+}
+img#pizza{
+    width: 400px;
+    height: 400px;
+}
+img#seattle{
+    width: 400px;
+}
+.about p{
+    color: hsl(285, 100%, 50%);
+}
+.about h1{
+    color: rgb(192, 19, 62);
+}
+
+/* Hobbies */
+.hobbies{
+    color: rgb(122, 255, 50);
+}
+
+.one img{
+    height: 400px;
+}
+
+/* Contact */
+body.contact img{
+    width: 300px;
+    display: block;;
+}
+
+.contact h1, h2{
+    text-align: center;
+    color: rgb(122, 255, 50);
+}

@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    min-height: 800px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:grey;
+}
+li{
+    float: left;
+}
+li#name {
+    float: right;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    padding: 12px;
+}
+li a:hover{
+    background-color: violet;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    margin: 0px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* home */
+.index h1, h3, h4{
+    text-align: center;
+}
+.index .sponsors img{
+    width: 300px;
+    margin: 0px 30px;
+}
+
+/* about */
+.about h1{
+    text-align: center;
+}

@@ -1,0 +1,13 @@
+.container {
+    display: inline-grid;
+    grid-column-gap: 10px;
+}
+.one{
+    grid-column: 1/2;
+}
+.two{
+    grid-column: 2/3;
+}
+.three{
+    grid-column: 3/4;
+}
